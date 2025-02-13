@@ -42,21 +42,17 @@
           </ul>
         </nav>
         <address class="address">
-          <ul class="address-list">
-            <div class="header-address">
-              <li class="address-list-item">
-                <a
-                  href="mailto:info@devstudio.com"
-                  class="address-item-link link"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="address-list-item">
-                <a href="tel:+110001111111" class="address-item-link link"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </div>
+          <ul class="address-list header-address">
+            <li class="address-list-item">
+              <a href="mailto:info@devstudio.com" class="address-item-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-list-item">
+              <a href="tel:+110001111111" class="address-item-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
           </ul>
         </address>
       </div>
@@ -65,16 +61,16 @@
     <main>
       <!--#region Hero -->
       <section class="section-hero">
-        <div class="container">
+        <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
       <!--#endregion end Hero -->
       <!-- #region About us -->
-      <section>
+      <section class="section-aboutus">
         <div class="container">
-          <h2 hidden>About us</h2>
+          <h2 class="visually-hidden">About us</h2>
           <ul class="aboutus-list">
             <li class="aboutus-list-item">
               <h3 class="subtitle">Strategy</h3>
@@ -174,8 +170,10 @@
                 height="300"
                 class="portfolio-item-img"
               />
-              <h3 class="subtitle">Banking App</h3>
-              <p class="text">App</p>
+              <div class="portfolio-item-content">
+                <h3 class="subtitle">Banking App</h3>
+                <p class="text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -185,8 +183,10 @@
                 height="300"
                 class="portfolio-item-img"
               />
-              <h3 class="subtitle">Cashless Payment</h3>
-              <p class="text">Marketing</p>
+              <div class="portfolio-item-content">
+                <h3 class="subtitle">Cashless Payment</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -196,8 +196,10 @@
                 height="300"
                 class="portfolio-item-img"
               />
-              <h3 class="subtitle">Meditation App</h3>
-              <p class="text">App</p>
+              <div class="portfolio-item-content">
+                <h3 class="subtitle">Meditation App</h3>
+                <p class="text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -207,8 +209,10 @@
                 height="300"
                 class="portfolio-item-img"
               />
-              <h3 class="subtitle">Taxi Service</h3>
-              <p class="text">Marketing</p>
+              <div class="portfolio-item-content">
+                <h3 class="subtitle">Taxi Service</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -218,8 +222,10 @@
                 height="300"
                 class="portfolio-item-img"
               />
-              <h3 class="subtitle">Screen Illustrations</h3>
-              <p class="text">Design</p>
+              <div class="portfolio-item-content">
+                <h3 class="subtitle">Screen Illustrations</h3>
+                <p class="text">Design</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -229,8 +235,10 @@
                 height="300"
                 class="portfolio-item-img"
               />
-              <h3 class="subtitle">Online Courses</h3>
-              <p class="text">Marketing</p>
+              <div class="portfolio-item-content">
+                <h3 class="subtitle">Online Courses</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
