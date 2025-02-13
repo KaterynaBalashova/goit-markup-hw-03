@@ -251,7 +251,7 @@ p {
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  gap: 32px 24px;
+  gap: 48px 24px;
 }
 
 .portfolio-list-item {
@@ -259,7 +259,7 @@ p {
 }
 
 .portfolio-item-content {
-  padding: 32px;
+  padding: 32px 16px;
   padding-left: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
