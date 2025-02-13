@@ -55,6 +55,10 @@ p {
 
 /* #region Header */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -123,10 +127,7 @@ p {
 /* #region Hero */
 .section-hero {
   background: #2e2f42;
-}
-
-.hero-container {
-  padding: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -166,7 +167,7 @@ p {
 /* #region Section About us */
 
 .section-aboutus {
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .aboutus-list {
@@ -212,7 +213,7 @@ p {
 
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .team-list {
@@ -226,16 +227,16 @@ p {
   width: calc((100% - 72px) - 4);
 }
 
-.team-img {
-  margin-bottom: 32px;
+.team-item-content {
+  padding: 32px 0;
 }
 
 .team-name {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
-  margin-bottom: 32px;
   text-align: center;
 }
 /* #endregion Section Our team */
@@ -243,7 +244,7 @@ p {
 /* #region Section Portfolio */
 
 .portfolio-section {
-  padding: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-list {
@@ -269,11 +270,11 @@ p {
 /* #region Footer */
 .footer {
   background-color: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .logo-footer {
-  display: block;
+  display: inline-block;
   color: #4d5ae5;
   margin-bottom: 16px;
 }
